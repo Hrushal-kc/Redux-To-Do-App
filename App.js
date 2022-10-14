@@ -21,15 +21,15 @@ const App = () => {
       <Tab.Screen name="HomePage" component={HomePage} options={{
           headerShown: false,
 
-          tabBarActiveTintColor: '#e84393',
+          tabBarActiveTintColor: '#EEF5D8',
 
-          // tabBarActiveBackgroundColor: '#9C2C77',
+          tabBarActiveBackgroundColor: '#FE5F55',
 
           tabBarIcon: ({focused}) => (
             <Icon
               name="home"
               size={30}
-              color={focused ? '#9C2C77' : '#2c3e50'}
+              color={focused ? '#EEF5D8' : '#2c3e50'}
               light
             />
           ),
@@ -37,15 +37,15 @@ const App = () => {
       <Tab.Screen name="CompleteTaskPage" component={CompleteTask} options={{
           headerShown: false,
 
-          tabBarActiveTintColor: '#e84393',
+          tabBarActiveTintColor: '#EEF5D8',
 
-          // tabBarActiveBackgroundColor: '#9C2C77',
+          tabBarActiveBackgroundColor: '#FE5F55',
 
           tabBarIcon: ({focused}) => (
             <Icon
               name="check-square"
               size={30}
-              color={focused ? '#9C2C77' : '#2c3e50'}
+              color={focused ? '#EEF5D8' : '#2c3e50'}
               light
             />
           ),

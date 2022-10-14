@@ -150,6 +150,8 @@ style = StyleSheet.create({
   safeContainer: {
     flex: 1,
     margin: 2,
+    backgroundColor : "#B8D8D8"
+
   },
   container: {
     flex: 1,

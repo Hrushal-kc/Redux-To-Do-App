@@ -50,6 +50,7 @@ const CompleteTask = () => {
 const style = StyleSheet.create({
   safeContainer: {
     flex: 1,
+    backgroundColor : "#B8D8D8"
   },
   container: {
     margin : 10
